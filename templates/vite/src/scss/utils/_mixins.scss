@@ -1,0 +1,9 @@
+@import './_variables.scss';
+
+@mixin hover {
+    @media (hover: hover) {
+        &:hover {
+            @content;
+        }
+    }
+}

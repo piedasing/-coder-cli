@@ -1,0 +1,40 @@
+{
+    "name": "project",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "npm run build:coder && npm run build:prod",
+        "build:coder": "vite build --mode coder",
+        "build:prod": "vite build --mode production",
+        "preview": "vite preview",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    },
+    "dependencies": {
+        "@coder/core": "git+ssh://git@github.com:piedasing/-coder-core.git#v{版本號}",
+        "@line/liff": "^2.23.0",
+        "@unhead/vue": "^1.8.10",
+        "@vueuse/core": "^10.4.1",
+        "axios": "^1.0.0",
+        "pinia": "^2.0.28",
+        "pinia-plugin-persist": "^1.0.0",
+        "swiper": "^10.2.0",
+        "vconsole": "^3.15.0",
+        "vue": "^3.2.45",
+        "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-basic-ssl": "^1.0.1",
+        "@vitejs/plugin-legacy": "^5.2.0",
+        "@vitejs/plugin-vue": "^4.0.0",
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.21",
+        "postcss-import": "^15.1.0",
+        "prettier": "^2.7.1",
+        "prettier-plugin-tailwindcss": "^0.2.1",
+        "sass": "^1.55.0",
+        "tailwindcss": "^3.2.4",
+        "vite": "^5.0.0"
+    }
+}
