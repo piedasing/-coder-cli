@@ -1,0 +1,13 @@
+.slidergroup{
+    border: 2px #968C83 solid;
+}
+/*.slidergroup:after{ 
+    content:url('../images/slider.png');
+    position:relative;
+    display: block;
+    border: 1px black solid;
+    padding: 3px;
+}*/
+.slidergroup .casio_slider_b{
+    display: none;
+}

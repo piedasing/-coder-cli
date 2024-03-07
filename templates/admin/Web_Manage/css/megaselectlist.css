@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.megaselectlistcolumn {
+			/*width:30%;*/
+			float:left;
+			padding:1em 0;
+		}
+		.megaselectlist .currentitem {
+		border: 0.1em Green;
+		color: Black;
+		background-color: #ECECEC;
+		}
+		/* Optional styles */
+		.megaselectlist {
+		  background-color: #ECECEC;
+		  border: 1px solid Silver;
+		}
+		.megaselectlist > p {
+			margin:6px 0 2px 0;
+			padding:0 1em;
+			min-height:18px;
+		}
+		.megaselectlistcolumn > ul {
+			padding-left: 1em;
+			margin: 0;
+			color: Gray;
+		}
+		.megaselectlistcolumn > ul > li {
+			cursor: pointer;
+			padding: 0.2em 0.1em 0.2em 0.3em;
+			font-size: small;
+			margin:0.2em;
+		}
+		.megaselectlistcolumn > ul > li:hover {
+			background-color: rgb(217, 227, 235);
+			color: Black;
+		}
+		.megaselectlistoptions{
+			padding:0 1.2em;
+			background-color:#FAFAFA;
+		}

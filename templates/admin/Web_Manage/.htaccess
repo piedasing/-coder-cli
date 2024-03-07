@@ -1,0 +1,8 @@
+RewriteEngine On
+Header always edit Set-Cookie (.*) "$1; HTTPOnly"
+Header always edit Set-Cookie (.*) "$1; Secure"
+Header always unset X-Frame-Options
+Header always append X-Frame-Options SAMEORIGIN
+
+RewriteRule ^api/login$ api/login.php [NC,L]
+RewriteRule ^api/logout$ api/logout.php [NC,L]

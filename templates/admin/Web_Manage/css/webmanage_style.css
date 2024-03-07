@@ -1,0 +1,31 @@
+/*切圖*/
+.jcrop_ok{
+	position: absolute;
+	background-color: white;
+	padding: 4px;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+	z-index:9999;
+}
+
+.jcrop_infobox{
+	position: absolute;
+	background-color: white;
+	left: 0;
+	bottom: 0;
+	z-index:9990;
+}
+
+.jcrop_infobox.tosmall .jcrop_infobox_wh{
+	color: red;
+}
+
+.jcrop_picbox_edit{
+	position: absolute;
+	background-color: white;
+	padding: 4px;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+}

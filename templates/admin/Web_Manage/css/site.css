@@ -1,0 +1,51 @@
+/* CSS Document */
+.input_size0 {
+    width: 50px;
+}
+.input_size1 {
+    width: 120px;
+}
+.myform-group {
+    margin: 5px;
+    float: left;
+    display: inline-block;
+}
+
+.myform-error {
+    background-color: #ebebeb;
+}
+
+.myform-label {
+    margin-right: 5px;
+}
+.label-font {
+    font-size: 11px;
+}
+.myform-formgroup-label {
+    width: 120px;
+    float: left;
+}
+.myform-formgroup-button {
+    margin-left: 115px;
+}
+.myform-control {
+    font-size: 12px;
+    height: 29px;
+    color: #555;
+    vertical-align: middle;
+    border: 1px solid #e5e5e5;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.myform_pic {
+    border: 1px solid #999;
+    padding: 5px;
+    background: #efefef;
+}
+
+@media (max-width: 768px) {
+    .myform-formgroup-label {
+        float: none;
+    }
+}
